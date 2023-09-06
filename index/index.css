@@ -3,7 +3,7 @@
     width: 600px;
     height: 40px;
     margin: 20px auto;
-    border: 1px solid #bdc1c6;
+    border: 1px solid lightgray;
     border-radius: 20px;
 }
 
@@ -11,7 +11,7 @@ input {
     margin-left: 5%;
     width: 90%;
     height: 100%;
-    border-color: #bdc1c6;
+    border-color: lightgray;
     border: 0px;
     font-size: 16px;
     outline: none;
@@ -26,13 +26,10 @@ input {
 
 i:hover {
     cursor: pointer;
+    /* i태그에 :hover를 붙이면 i태그에 
+    마우스를 올렸을때 효과가 나타남 */
 }
 
-.icon_ect {
-    position: absolute;
-    right: 10px;
-    top: 20%;
-}
 
 button.m {
     margin-left: 80%;
