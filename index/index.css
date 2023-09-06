@@ -3,25 +3,30 @@
     width: 600px;
     height: 40px;
     margin: 20px auto;
+    margin-top: 15%;
     border: 1px solid lightgray;
     border-radius: 20px;
 }
 
 input {
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 8%;
+    width: 89%;
     height: 100%;
     border-color: lightgray;
-    border: 0px;
+    border: 10px;
     font-size: 16px;
     outline: none;
-    text-align: center;
+    text-align: left;
 }
 
 .searching {
     position: absolute;
     left: 10px;
     top: 20%;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    margin: 20%;
 }
 
 i:hover {
@@ -32,15 +37,18 @@ i:hover {
 
 
 button.m {
+    position: relative;
+    left: 150px;
+    top: 400px;
     margin-left: 80%;
-    width: 22px;
-    height: 22px;
+    width: 27px;
+    height: 27px;
     text-align: center;
-    color: black;
+    color: gray;
     background-color: transparent;
-    border-color: black;
-    border: 1px solid black;
-    border-radius: 15px;
-    font-size: 15px;
+    border-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    font-size: 20px;
     cursor: pointer;
 }
