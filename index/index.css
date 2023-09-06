@@ -34,21 +34,3 @@ i:hover {
     /* i태그에 :hover를 붙이면 i태그에 
     마우스를 올렸을때 효과가 나타남 */
 }
-
-
-button.m {
-    position: relative;
-    left: 150px;
-    top: 400px;
-    margin-left: 80%;
-    width: 27px;
-    height: 27px;
-    text-align: center;
-    color: gray;
-    background-color: transparent;
-    border-color: lightgray;
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    font-size: 20px;
-    cursor: pointer;
-}
