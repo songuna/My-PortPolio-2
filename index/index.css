@@ -3,11 +3,24 @@ input {
     margin-left: 23%;
     width: 50%;
     height: 50%;
-    border-color: black;
+    color: lightgrey;
+    border-color: pink;
     border: 3px solid pink;
     border-radius: 20px;
     font-size: 20px;
     outline: none;
+    cursor: pointer;
 }
 
-.m {}
+button.m {
+    margin-left: 80%;
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    color: lightgray;
+    border-color: pink;
+    border: 3px solid pink;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
