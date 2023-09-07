@@ -1,8 +1,7 @@
 #m {
-    position: relative;
-    left: 150px;
-    top: 400px;
-    margin-left: 80%;
+    position: fixed;
+    left: 80.1%;
+    top: 80%;
     width: 35px;
     height: 35px;
     background-color: transparent;
@@ -16,14 +15,11 @@
 }
 
 #box {
-    position: relative;
-    left: 150px;
-    top: 350px;
-    width: 80px;
-    height: 80px;
-    margin-top: 20%;
-    margin-bottom: 3%;
-    margin-left: 77%;
+    position: fixed;
+    left: 78.5%;
+    top: 60%;
+    width: 5.5%;
+    height: 10%;
     line-height: 80px;
     color: gray;
     border: 0px solid lightgray;
