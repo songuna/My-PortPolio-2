@@ -12,12 +12,12 @@ jQuery(function () {
 
 ins.addEventListener("click", function () {
     window.location.href = 'https://instagram.com/v2ly_you?igshid=NGVhN2U2NjQ0Yg=='
-})
+});
 
 gh.addEventListener("click", function () {
     window.location.href = 'https://github.com/songuna'
-})
+});
 
 mes.addEventListener("click", function () {
     window.location.href = "./kakao.jpg"
-})
+});
