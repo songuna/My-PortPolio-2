@@ -9,7 +9,10 @@ const sk = document.getElementById("sk");
 input.addEventListener("keyup", function (event) {
     if (event.key === 'Enter') {
         event.preventDefault();
-        alert("enter");
+
+        if (input.value === '프로필') {
+            window.open('../profile/profile.html');
+        }
     }
 });
 
