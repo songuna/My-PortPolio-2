@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="m.css">
     <script src="https://kit.fontawesome.com/47a74272de.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
 </head>
 
 <body>
@@ -18,17 +20,19 @@
         <input type="search" id="input" placeholder="1.프로필">
     </div>
     <div>
-        <button class="m">?</button>
-        <div id="box">
-        </div>
+        <a id="pf" href="#"
+            onclick="window.open('../profile/profile.html','profile','fullscreen, scrollbars=yes');return false"></a>
+        <a id="itd" href="#"
+            onclick="window.open('../introduce/introduce.html','introduce','fullscreen, scrollbars=yes');return false"></a>
+        <a id="sk" href="#"
+            onclick="window.open('../skills/skills.html','skills','fullscreen, scrollbars=yes');return false"></a>
     </div>
+    <button id="m"><i class="fa-solid fa-user"></i></button>
+    <div id="box">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-regular fa-message"></i>
     </div>
-    <a id="pf" href="#"
-        onclick="window.open('../profile/profile.html','profile','fullscreen, scrollbars=yes');return false"></a>
-    <a id="itd" href="#"
-        onclick="window.open('../introduce/introduce.html','introduce','fullscreen, scrollbars=yes');return false"></a>
-    <a id="sk" href="#"
-        onclick="window.open('../skills/skills.html','skills','fullscreen, scrollbars=yes');return false"></a>
 
     <script src="./index.js"></script>
     <script src="./m.js"></script>
