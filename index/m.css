@@ -18,14 +18,16 @@
 #box {
     position: relative;
     left: 150px;
-    top: 400px;
+    top: 350px;
     width: 80px;
     height: 80px;
-    margin-top: 5px;
-    margin-left: 80%;
+    margin-top: 20%;
+    margin-bottom: 3%;
+    margin-left: 77%;
     line-height: 80px;
     color: gray;
-    border: 1px solid lightgray;
-    border-radius: 50px;
+    border: 0px solid lightgray;
+    border-radius: 30px;
     text-align: center;
+    line-height: 300%;
 }
