@@ -1,0 +1,55 @@
+ .html {
+     appearance: none;
+ }
+
+ .html::-webkit-progress-bar {
+     background: white;
+     border-radius: 10px;
+     box-shadow: inset 3px 3px 10px #ccc;
+ }
+
+ .html::-webkit-progress-value {
+     border-radius: 10px;
+     background: white;
+     background: -webkit-linear-gradient(to right, rgb(255, 146, 146),
+             red);
+     background: linear-gradient(to right, rgb(255, 146, 146), red);
+
+ }
+
+ .js {
+     appearance: none;
+ }
+
+ .js::-webkit-progress-bar {
+     background: white;
+     border-radius: 10px;
+     box-shadow: inset 3px 3px 10px #ccc;
+ }
+
+ .js::-webkit-progress-value {
+     border-radius: 10px;
+     background: white;
+     background: -webkit-linear-gradient(to right, rgb(255, 255, 155), yellow);
+     background: linear-gradient(to right, rgb(255, 255, 155),
+             yellow);
+
+ }
+
+ .css {
+     appearance: none;
+ }
+
+ .css::-webkit-progress-bar {
+     background: white;
+     border-radius: 10px;
+     box-shadow: inset 3px 3px 10px #ccc;
+ }
+
+ .css::-webkit-progress-value {
+     border-radius: 10px;
+     background: white;
+     background: -webkit-linear-gradient(to right, rgb(116, 135, 255), blue);
+     background: linear-gradient(to right, rgb(116, 135, 255), blue);
+
+ }
