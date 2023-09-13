@@ -27,7 +27,7 @@
 
 .html {
     /* 내가 원하는 수치 */
-    width: 60%;
+    width: 50%;
     /* 박스 높이 */
     height: 20px;
     /* bar 색상 */
@@ -45,7 +45,7 @@
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -55,12 +55,12 @@
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
 .css {
-    width: 40%;
+    width: 50%;
     height: 20px;
     background: -webkit-linear-gradient(to right, rgb(116, 135, 255), blue);
     background: linear-gradient(to right, rgb(116, 135, 255), blue);
@@ -75,7 +75,7 @@
     }
 
     100% {
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -85,12 +85,12 @@
     }
 
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
 .js {
-    width: 80%;
+    width: 50%;
     height: 20px;
     background: -webkit-linear-gradient(to right, rgb(255, 255, 155), yellow);
     background: linear-gradient(to right, rgb(255, 255, 155), yellow);
@@ -105,7 +105,7 @@
     }
 
     100% {
-        width: 80%;
+        width: 50%;
     }
 }
 
@@ -115,7 +115,7 @@
     }
 
     100% {
-        width: 80%;
+        width: 50%;
     }
 }
 
