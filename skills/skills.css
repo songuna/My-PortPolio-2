@@ -18,60 +18,120 @@
     margin: 50px 50px 50px 50px;
 }
 
-.js,
-.html,
-.css {
-    appearance: none;
-}
-
-.html::-webkit-progress-bar {
-    position: relative;
-    top: 70%;
-    right: 70%;
-    background: white;
-    border-radius: 10px;
+.box {
+    width: 100px;
+    height: 20px;
     box-shadow: inset 3px 3px 10px #ccc;
+    border-radius: 10px;
 }
 
-.html::-webkit-progress-value {
-    border-radius: 10px;
-    background: white;
-    background: -webkit-linear-gradient(to right, rgb(255, 146, 146),
-            red);
+.html {
+    /* 내가 원하는 수치 */
+    width: 60%;
+    /* 박스 높이 */
+    height: 20px;
+    /* bar 색상 */
+    background: -webkit-linear-gradient(to right, rgb(255, 146, 146), red);
     background: linear-gradient(to right, rgb(255, 146, 146), red);
-
+    /* */
+    animation: html 1s ease-in-out;
+    -webkit-animation: html 1s ease-in-out;
+    border-radius: 10px;
 }
 
-.js::-webkit-progress-bar {
-    position: relative;
-    top: 70%;
-    background: white;
-    border-radius: 10px;
-    box-shadow: inset 3px 3px 10px #ccc;
+@keyframes css {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
 }
 
-.js::-webkit-progress-value {
-    border-radius: 10px;
-    background: white;
-    background: -webkit-linear-gradient(to right, rgb(255, 255, 155), yellow);
-    background: linear-gradient(to right, rgb(255, 255, 155),
-            yellow);
+@-webkit-keyframes html {
+    0% {
+        width: 0px;
+    }
 
+    100% {
+        width: 60%;
+    }
 }
 
-.css::-webkit-progress-bar {
-    position: relative;
-    top: 70%;
-    left: 70%;
-    background: white;
-    border-radius: 10px;
-    box-shadow: inset 3px 3px 10px #ccc;
-}
-
-.css::-webkit-progress-value {
-    border-radius: 10px;
-    background: white;
+.css {
+    width: 40%;
+    height: 20px;
     background: -webkit-linear-gradient(to right, rgb(116, 135, 255), blue);
     background: linear-gradient(to right, rgb(116, 135, 255), blue);
+    animation: css 1s ease-in-out;
+    -webkit-animation: css 1s ease-in-out;
+    border-radius: 10px;
+}
 
+@keyframes css {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@-webkit-keyframes css {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.js {
+    width: 80%;
+    height: 20px;
+    background: -webkit-linear-gradient(to right, rgb(255, 255, 155), yellow);
+    background: linear-gradient(to right, rgb(255, 255, 155), yellow);
+    animation: js 1s ease-in-out;
+    -webkit-animation: js 1s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes js {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes js {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.html-box {
+    position: relative;
+    top: 20px;
+    right: 170px;
+}
+
+.js-box {
+    position: relative;
+    top: 20px;
+}
+
+.css-box {
+    position: relative;
+    top: 20px;
+    left: 170px;
 }
