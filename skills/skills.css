@@ -1,62 +1,77 @@
- .title {
-     text-align: center;
-     font-size: 2rem;
- }
+.title {
+    text-align: center;
+    font-size: 2rem;
+}
 
- .image {}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
- .html {
-     appearance: none;
- }
+.progressbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px 50px 50px 50px;
+}
 
- .html::-webkit-progress-bar {
-     background: white;
-     border-radius: 10px;
-     box-shadow: inset 3px 3px 10px #ccc;
- }
+.js,
+.html,
+.css {
+    appearance: none;
+}
 
- .html::-webkit-progress-value {
-     border-radius: 10px;
-     background: white;
-     background: -webkit-linear-gradient(to right, rgb(255, 146, 146),
-             red);
-     background: linear-gradient(to right, rgb(255, 146, 146), red);
+.html::-webkit-progress-bar {
+    position: relative;
+    top: 70%;
+    right: 70%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
 
- }
+.html::-webkit-progress-value {
+    border-radius: 10px;
+    background: white;
+    background: -webkit-linear-gradient(to right, rgb(255, 146, 146),
+            red);
+    background: linear-gradient(to right, rgb(255, 146, 146), red);
 
- .js {
-     appearance: none;
- }
+}
 
- .js::-webkit-progress-bar {
-     background: white;
-     border-radius: 10px;
-     box-shadow: inset 3px 3px 10px #ccc;
- }
+.js::-webkit-progress-bar {
+    position: relative;
+    top: 70%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
 
- .js::-webkit-progress-value {
-     border-radius: 10px;
-     background: white;
-     background: -webkit-linear-gradient(to right, rgb(255, 255, 155), yellow);
-     background: linear-gradient(to right, rgb(255, 255, 155),
-             yellow);
+.js::-webkit-progress-value {
+    border-radius: 10px;
+    background: white;
+    background: -webkit-linear-gradient(to right, rgb(255, 255, 155), yellow);
+    background: linear-gradient(to right, rgb(255, 255, 155),
+            yellow);
 
- }
+}
 
- .css {
-     appearance: none;
- }
+.css::-webkit-progress-bar {
+    position: relative;
+    top: 70%;
+    left: 70%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
 
- .css::-webkit-progress-bar {
-     background: white;
-     border-radius: 10px;
-     box-shadow: inset 3px 3px 10px #ccc;
- }
+.css::-webkit-progress-value {
+    border-radius: 10px;
+    background: white;
+    background: -webkit-linear-gradient(to right, rgb(116, 135, 255), blue);
+    background: linear-gradient(to right, rgb(116, 135, 255), blue);
 
- .css::-webkit-progress-value {
-     border-radius: 10px;
-     background: white;
-     background: -webkit-linear-gradient(to right, rgb(116, 135, 255), blue);
-     background: linear-gradient(to right, rgb(116, 135, 255), blue);
-
- }
+}
