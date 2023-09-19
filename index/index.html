@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SYN's Portpolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="m.css">
-    <link rel="stylesheet" href="c.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="m.css" />
+    <link rel="stylesheet" href="c.css" />
     <script src="https://kit.fontawesome.com/47a74272de.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="main">
-        <div class="searching">
-            <i id="sc" class="fa-solid fa-magnifying-glass"></i>
+      <div class="search-form">
+        <div class="search-form__i">
+          <i id="sc" class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <input type="search" id="input" placeholder="1.프로필">
-    </div>
-    <div class="items">
-        <input style="display: none;">
-        <div class="carousel">
-            <div class="item active">1.프로필</div>
-            <div class="item">2.자기소개</div>
-            <div class="item">3.스킬</div>
+        <input class="search-form__input" type="search" id="input" />
+        <div class="search-form__carousel">
+          <div class="item active">1.프로필</div>
+          <div class="item">2.자기소개</div>
+          <div class="item">3.스킬</div>
         </div>
+      </div>
     </div>
+
     <div>
-        <a id="pf" href="#"
-            onclick="window.open('../profile/profile.html','profile','fullscreen, scrollbars=yes');return false"></a>
-        <a id="itd" href="#"
-            onclick="window.open('../introduce/introduce.html','introduce','fullscreen, scrollbars=yes');return false"></a>
-        <a id="sk" href="#"
-            onclick="window.open('../skills/skills.html','skills','fullscreen, scrollbars=yes');return false"></a>
+      <a
+        id="pf"
+        href="#"
+        onclick="window.open('../profile/profile.html','profile','fullscreen, scrollbars=yes');return false"
+      ></a>
+      <a
+        id="itd"
+        href="#"
+        onclick="window.open('../introduce/introduce.html','introduce','fullscreen, scrollbars=yes');return false"
+      ></a>
+      <a
+        id="sk"
+        href="#"
+        onclick="window.open('../skills/skills.html','skills','fullscreen, scrollbars=yes');return false"
+      ></a>
     </div>
-    <div id="box" style="display: none;">
-        <i id="ins" class="fa-brands fa-instagram"></i><br>
-        <i id="gh" class="fa-brands fa-github"></i><br>
-        <i id="mes" class="fa-regular fa-message"></i>
+    <div id="box" style="display: none">
+      <i id="ins" class="fa-brands fa-instagram"></i><br />
+      <i id="gh" class="fa-brands fa-github"></i><br />
+      <i id="mes" class="fa-regular fa-message"></i>
     </div>
     <button id="m"><i class="fa-solid fa-user"></i></button>
 
     <script src="./index.js"></script>
     <script src="./m.js"></script>
     <script src="./c.js"></script>
-</body>
-
+  </body>
 </html>
