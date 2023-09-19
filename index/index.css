@@ -17,6 +17,7 @@ input {
     font-size: 16px;
     outline: none;
     text-align: left;
+    cursor: pointer;
 }
 
 .searching {
@@ -27,10 +28,4 @@ input {
 
 i.fa-solid.fa-magnifying-glass {
     margin: 20%;
-}
-
-i:hover {
-    cursor: pointer;
-    /* i태그에 :hover를 붙이면 i태그에 
-    마우스를 올렸을때 효과가 나타남 */
 }
