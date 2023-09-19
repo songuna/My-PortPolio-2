@@ -8,16 +8,15 @@
     border-radius: 20px;
 }
 
-input {
-    margin-left: 8%;
+.searchInput {
     width: 89%;
     height: 100%;
     border-color: lightgray;
     border: 10px;
     font-size: 16px;
+    padding-left: 20px;
     outline: none;
     text-align: left;
-    cursor: pointer;
 }
 
 .searching {
@@ -28,4 +27,10 @@ input {
 
 i.fa-solid.fa-magnifying-glass {
     margin: 20%;
+}
+
+i:hover {
+    cursor: pointer;
+    /* i태그에 :hover를 붙이면 i태그에 
+    마우스를 올렸을때 효과가 나타남 */
 }
