@@ -8,13 +8,13 @@
     border-radius: 20px;
 }
 
-input {
-    margin-left: 8%;
+.searchInput {
     width: 89%;
     height: 100%;
     border-color: lightgray;
     border: 10px;
     font-size: 16px;
+    padding-left: 20px;
     outline: none;
     text-align: left;
 }
